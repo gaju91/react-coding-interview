@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-### 3️⃣ Check Components 
+### 4️⃣ Check Components 
 ```sh
 Go to App.tsx and Un-Comment component
 ```
