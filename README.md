@@ -7,6 +7,9 @@ This project contains multiple React components frequently encountered in interv
 
 ## 🛠️ Components List (Always check the readme files attached)
 - ✅ Accordion [🔗 Learn More](./src/Accordion/README.md)
+
+  ![ScreenRecording2025-02-07at10 19 22AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b8d0177a-6ee5-4344-a33d-59c3b6943e71)
+
 - ✅ Tabs  
 - ✅ Modal  
 - ✅ Tooltip  
