@@ -50,6 +50,11 @@ npm install
 npm run dev
 ```
 
+### 3️⃣ Check Components 
+```sh
+Go to App.tsx and Un-Comment component
+```
+
 ## 🛠️ Contribution  
 Feel free to contribute by improving existing components or adding new ones. Fork the repository, make your changes, and open a pull request!  
 
