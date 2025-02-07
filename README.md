@@ -6,16 +6,16 @@ A collection of commonly asked React interview components, built from scratch to
 This project contains multiple React components frequently encountered in interviews. Each component is implemented with best practices, covering various topics like state management, hooks, event handling, and component composition.  
 
 ## 🛠️ Components List (Always check the readme files attached)
-- ✅ Accordion [🔗 Learn More](./src/Accordion/README.md)
+- ✅ Accordion [🔗 Learn More](./src/components/Accordion/README.md)
 
   ![ScreenRecording2025-02-07at10 19 22AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b8d0177a-6ee5-4344-a33d-59c3b6943e71)
 
-- ✅ Tabs  
+- ✅ Tabs      [🔗 Learn More](./src/components/Tabs/README.md)
 - ✅ Modal  
 - ✅ Tooltip  
 - ✅ Pagination  
 - ✅ Search Filter  
-- ✅ Infinite Scroll  
+- ✅ Infinite Scroll
 - ✅ Debounced Input  
 - ✅ Toast Notifications  
 - ✅ Drag and Drop  

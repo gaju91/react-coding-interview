@@ -30,4 +30,4 @@ An Accordion is a UI component that allows users to expand and collapse sections
 
 ## 📖 Documentation  
 For more details, refer to the **main repository README**:  
-[🔗 Back to Main README](../../README.md)
+[🔗 Back to Main README](../../../README.md)

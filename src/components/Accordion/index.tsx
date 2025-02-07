@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './styles.css';
 
 const Accordion = () => {
     const [toggle, setToggle] = React.useState(false);

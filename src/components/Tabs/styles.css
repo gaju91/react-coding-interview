@@ -1,0 +1,63 @@
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Navigation */
+.tabs-row {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    border-bottom: 2px solid #e0e0e0; /* Soft separator */
+    padding-bottom: 0.5rem;
+}
+
+.tab-link button {
+    background: #f5f5f5; /* Light grey */
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #333;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Light button shadow */
+}
+
+.tab-link button:hover {
+    background: #e0e0e0;
+}
+
+/* Active Tab */
+.tab-link.active button {
+    background: #333;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tab Content */
+.tab-content {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-item {
+    display: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-item.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}

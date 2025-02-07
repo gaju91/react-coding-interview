@@ -1,6 +1,7 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Accordion from "./components/Accordion";
+import Tabs from "./components/Tabs";
 
 function App() {
   return (
@@ -10,6 +11,10 @@ function App() {
 
       { /* Accordion Component */ }
       { /* <Accordion /> */       }
+
+      { /* Tabs Component */ }
+      { /* <Tabs />       */ }
+
     </>
   )
 }
