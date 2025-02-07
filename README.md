@@ -11,6 +11,9 @@ This project contains multiple React components frequently encountered in interv
   ![ScreenRecording2025-02-07at10 19 22AM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/b8d0177a-6ee5-4344-a33d-59c3b6943e71)
 
 - ✅ Tabs      [🔗 Learn More](./src/components/Tabs/README.md)
+
+  ![Screen Recording 2025-02-07 at 6 00 44 PM](https://github.com/user-attachments/assets/57bf2cb7-35a1-473b-8b35-3efcf9e0d8d8)
+
 - ✅ Modal  
 - ✅ Tooltip  
 - ✅ Pagination  
