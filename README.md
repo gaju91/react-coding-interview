@@ -5,8 +5,8 @@ A collection of commonly asked React interview components, built from scratch to
 ## 📌 About  
 This project contains multiple React components frequently encountered in interviews. Each component is implemented with best practices, covering various topics like state management, hooks, event handling, and component composition.  
 
-## 🛠️ Components List  
-- ✅ Accordion  
+## 🛠️ Components List (Always check the readme files attached)
+- ✅ Accordion [🔗 Learn More](./src/Accordion/README.md)
 - ✅ Tabs  
 - ✅ Modal  
 - ✅ Tooltip  
