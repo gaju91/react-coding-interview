@@ -1,0 +1,104 @@
+.container {
+    /* Center the container */
+    width: 90%; /* Adjust width to a larger percentage on mobile */
+    max-width: 800px; /* Max width for larger screens */
+    margin: 0 auto;
+    height: 50vh; /* Adjust this for mobile screens */
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 15px;
+
+    /* Accordion Styles */
+    .accordion {
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: inherit;
+    }
+
+    /* Title Section Styles */
+    .title-section {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: inherit;
+    }
+
+    /* Toggle Icon Styles */
+    .toggle-icon {
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+
+        /* Rotate the icon when toggled */
+        &.rotate {
+            transform: rotate(180deg);
+        }
+    }
+
+    /* Content Section Styles */
+    .content-section {
+        padding: 1rem;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out, opacity 0.15s ease-in;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        /* When open, show the content */
+        &.open {
+            max-height: 100%; /* Automatically adjusts based on content */
+            opacity: 1;
+        }
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Ensure container uses most of the screen on tablets */
+        height: auto; /* Adjust height on smaller screens */
+        padding: 1rem;
+    }
+
+    .accordion {
+        padding: 1rem;
+    }
+
+    .title-section {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: flex-start;
+    }
+
+    .toggle-icon {
+        font-size: 1.5rem; /* Make the icon a bit bigger on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%; /* Use full screen width on mobile */
+        padding: 1rem;
+        height: auto; /* Height adjusted for mobile */
+    }
+
+    .title-section {
+        flex-direction: column; /* Stack items vertically on very small screens */
+    }
+
+    .toggle-icon {
+        font-size: 1.2rem; /* Adjust icon size for very small screens */
+    }
+
+    .content-section {
+        padding: 0.5rem; /* Smaller padding on small screens */
+    }
+}
