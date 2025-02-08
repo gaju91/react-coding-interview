@@ -14,7 +14,7 @@ This project contains multiple React components frequently encountered in interv
 
   ![Screen Recording 2025-02-07 at 6 00 44 PM](https://github.com/user-attachments/assets/57bf2cb7-35a1-473b-8b35-3efcf9e0d8d8)
 
-- ✅ Modal  
+- ✅ Modal     [🔗 Learn More](./src/components/Modal/README.md)
 - ✅ Tooltip  
 - ✅ Pagination  
 - ✅ Search Filter  

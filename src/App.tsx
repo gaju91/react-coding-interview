@@ -2,6 +2,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Accordion from "./components/Accordion";
 import Tabs from "./components/Tabs";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       { /* Tabs Component */ }
       { /* <Tabs />       */ }
 
+      { /* Modal Component */ }
+      { /* <Modal />       */ }
     </>
   )
 }

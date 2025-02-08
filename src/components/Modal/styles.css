@@ -1,0 +1,112 @@
+/* Centering the modal */
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1); /* Slight background tint */
+}
+
+/* Open Modal Button */
+.btn {
+    background: #333;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: #444;
+}
+
+/* Modal Box */
+.modal {
+    position: fixed;
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* When modal is open */
+.modal.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+/* Close Button */
+.modal-header .close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #666;
+}
+
+.modal-header .close:hover {
+    color: #000;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 1.2rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Modal Footer */
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 0.75rem;
+    background: #f9f9f9;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Buttons inside modal */
+.modal-footer .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.modal-footer .confirm {
+    background: #28a745;
+}
+
+.modal-footer .confirm:hover {
+    background: #218838;
+}
+
+.modal-footer .cancel {
+    background: #dc3545;
+}
+
+.modal-footer .cancel:hover {
+    background: #c82333;
+}
