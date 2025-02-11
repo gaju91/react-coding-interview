@@ -18,7 +18,10 @@ This project contains multiple React components frequently encountered in interv
 
   ![Screen Recording 2025-02-08 at 8 59 44 AM](https://github.com/user-attachments/assets/a009f10c-199d-4fa3-8d3e-a13d708ee083)
 
-- ✅ Tooltip  
+- ✅ Tooltip  [🔗 Learn More](./src/components/Tooltip/README.md)
+
+  ![Screen Recording 2025-02-11 at 6 46 24 PM](https://github.com/user-attachments/assets/eb4c880c-75a1-4939-98f4-8c77be4f80c9)
+
 - ✅ Pagination  
 - ✅ Search Filter  
 - ✅ Infinite Scroll
