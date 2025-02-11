@@ -3,6 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Accordion from "./components/Accordion";
 import Tabs from "./components/Tabs";
 import Modal from "./components/Modal";
+import Tooltip from "./components/Tooltip";
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
 
       { /* Modal Component */ }
       { /* <Modal />       */ }
+
+      { /* Tooltip Component */ }
+      {/* <Tooltip text="Tooltip text" position="right">
+        <button>Hover over me</button>
+      </Tooltip> */}
     </>
   )
 }
