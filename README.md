@@ -22,7 +22,10 @@ This project contains multiple React components frequently encountered in interv
 
   ![Screen Recording 2025-02-11 at 6 46 24 PM](https://github.com/user-attachments/assets/eb4c880c-75a1-4939-98f4-8c77be4f80c9)
 
-- ✅ Pagination  
+- ✅ Pagination
+
+  ![Screen Recording 2025-02-16 at 1 27 50 PM](https://github.com/user-attachments/assets/f76912f5-f54a-4e07-b9ef-ed48e14829e8)
+
 - ✅ Search Filter  
 - ✅ Infinite Scroll
 - ✅ Debounced Input  
