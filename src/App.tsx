@@ -4,6 +4,7 @@ import Accordion from "./components/Accordion";
 import Tabs from "./components/Tabs";
 import Modal from "./components/Modal";
 import Tooltip from "./components/Tooltip";
+import Pagination from "./components/Pagination";
 
 function App() {
   return (
@@ -21,9 +22,13 @@ function App() {
       { /* <Modal />       */ }
 
       { /* Tooltip Component */ }
-      {/* <Tooltip text="Tooltip text" position="right">
-        <button>Hover over me</button>
-      </Tooltip> */}
+      {/* 
+        <Tooltip text="Tooltip text" position="right">
+          <button>Hover over me</button>
+        </Tooltip>
+      */}
+
+      {/* <Pagination /> */}
     </>
   )
 }

@@ -1,0 +1,72 @@
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading style */
+  h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* List styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  /* Loading text */
+  .loading {
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Spinner Animation */
+  .spinner {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #555;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Message when no more data */
+  .end-message {
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Invisible trigger element */
+  .observer-trigger {
+    height: 50px; /* Increased height to delay loading */
+    background: transparent;
+  }
+  
